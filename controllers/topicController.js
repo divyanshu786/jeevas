@@ -1,4 +1,5 @@
 const Topic = require('../models/topic.model')
+const User = require('../models/user.model')
 const bycrypt = require('bcryptjs')
 const jwt = require("jsonwebtoken");
 const responseHandle = require('../globalFunctions/responseHandle.js');
