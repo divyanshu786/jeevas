@@ -8,7 +8,7 @@ const multerS3 = require('multer-s3');
 const AWS = require('aws-sdk');
 const s3Config = new AWS.S3({
     "accessKeyId": process.env.ACCESS_KEY,
-    "secretAccessKey": process.env.SECRET,
+    "secretAccessKey": process.env.AWS_SECRET,
     "region": process.env.REGION,
     "bucket": process.env.S3_BUCKET_NAME,
 });
